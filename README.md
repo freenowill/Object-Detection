@@ -9,6 +9,10 @@ predict:对自己的图片进行检测
 # yolo_utils
 read_classes:读取对象变量（coco_classes.txt），返回包含识别对象字符串的列表
 read_anchors:读取anchors（yolo_anchors.txt），返回anchors（n x 2）
+generate_colors:对检测对象产生不同的颜色
+preprocess_image:将输入图像处理为(608 x 608)
+draw_boxes:绘制boxes
+scale_boxes:将boxes进行尺度变换以适用于当前图片大小
 # yolo.h5
 为节省训练时间，下载已经训练好的模型yolu.h5
 具体方法：https://blog.csdn.net/weixin_41043240/article/details/79745614?utm_source=blogxgwz8
