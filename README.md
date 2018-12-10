@@ -15,4 +15,7 @@ read_anchors:读取anchors（yolo_anchors.txt），返回anchors（n x 2）
 或者下载我做好的yolu.h5:链接: 链接: https://pan.baidu.com/s/1czsFrhSAlK0cF7qvykZj9Q 提取码: ygfs 
 # keras_yolo.py
 yolo_head：将模型输出转换为需要的格式
-
+# model_data
+包含coco_classes.txt  object_classes.txt  yolo_anchors.txt
+# font
+绘图字体
